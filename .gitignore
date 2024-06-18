@@ -15,3 +15,6 @@ target
 
 # IDE Files
 .idea
+
+# vscode config files
+.vscode
