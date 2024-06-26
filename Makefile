@@ -12,4 +12,4 @@ docker-build:
 
 .PHONY: docker-run
 docker-run:
-	docker run --name ${IMAGE_NAME} -p 8080:8080 ${IMAGE_NAME} > ${GIT_SHA_FETCH}.log 2>&1 & 
+	docker run --name ${IMAGE_NAME} -p 89:8080 ${IMAGE_NAME} > ${GIT_SHA_FETCH}.log 2>&1 & 
